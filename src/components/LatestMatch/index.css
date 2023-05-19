@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.head {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #1e293b;
+  width: 65vw;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.ct-date-venue-result-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 36vw;
+}
+
+.fi-si-mom-ump {
+  text-align: right;
+}
+
+.latest-matches-heading {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .head {
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .latest-match-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #1e293b;
+    width: 65vw;
+    border-radius: 8px;
+    padding: 30px;
+  }
+
+  .ct-date-venue-result-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 36vw;
+  }
+
+  .fi-si-mom-ump {
+    text-align: right;
+  }
+
+  .latest-matches-heading {
+    font-size: 15px;
+    color: #ffffff;
+  }
+}

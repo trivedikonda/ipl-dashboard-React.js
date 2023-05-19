@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.match-card {
+  height: 300px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #1e293b;
+  margin-right: 58px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.result {
+  text-align: center;
+  font-size: 13px;
+}
+
+.team-name {
+  text-align: center;
+  font-size: 17px;
+}
